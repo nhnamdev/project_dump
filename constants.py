@@ -1,7 +1,7 @@
 MAX_FILE_SIZE = 100 * 1024 * 1024  # 100 MB
 
 TEXT_VI = {
-    'app_title': "🚀 PROJECTDUMP",
+    'app_title': "🚀 PROJECTDUMP By MigiDev",
     'input_project_path': "📂 Nhập đường dẫn thư mục dự án: ",
     'done': "\n🎉 Hoàn thành! File source_dump.txt đã sẵn sàng.",
     'error': "\n💥 Có lỗi xảy ra trong quá trình xử lý.",
@@ -23,25 +23,25 @@ TEXT_VI = {
     'not_found': "❌ Lỗi: Thư mục '{path}' không tồn tại!",
 }
 
-TEXT_EN = {
-    'app_title': "🚀 PROJECTDUMP",
-    'input_project_path': "📂 Enter the project folder path: ",
-    'done': "\n🎉 Done! The source_dump.txt file is ready.",
-    'error': "\n💥 An error occurred during processing.",
-    'analyzing': "🔍 Analyzing project at: ",
-    'scanning': "🔍 Scanning directories...",
-    'tech_detected': "🛠️  Detected technologies: ",
-    'no_tech': "⚠️  No specific technology detected, including all code files",
-    'included_ext': "📁 Extensions included: ",
-    'generating_tree': "📁 Generating directory tree...",
-    'processing_files': "📄 Processing files...",
-    'skip_large': "⚠️  Skipping {file} (size {size} bytes > limit {limit} bytes)",
-    'processing': "  📝 Processing: {file}",
-    'success': "✅ Success! File created: ",
-    'summary': "📊 Summary:",
-    'file_count': "   - Files processed: {count}",
-    'size': "   - Output size: {size} characters (~{kb} KB)",
-    'line_count': "   - Total lines: {lines}",
-    'write_error': "❌ Error writing file: {error}",
-    'not_found': "❌ Error: Folder '{path}' not found!",
-}
+# TEXT_EN = {
+#     'app_title': "🚀 PROJECTDUMP",
+#     'input_project_path': "📂 Enter the project folder path: ",
+#     'done': "\n🎉 Done! The source_dump.txt file is ready.",
+#     'error': "\n💥 An error occurred during processing.",
+#     'analyzing': "🔍 Analyzing project at: ",
+#     'scanning': "🔍 Scanning directories...",
+#     'tech_detected': "🛠️  Detected technologies: ",
+#     'no_tech': "⚠️  No specific technology detected, including all code files",
+#     'included_ext': "📁 Extensions included: ",
+#     'generating_tree': "📁 Generating directory tree...",
+#     'processing_files': "📄 Processing files...",
+#     'skip_large': "⚠️  Skipping {file} (size {size} bytes > limit {limit} bytes)",
+#     'processing': "  📝 Processing: {file}",
+#     'success': "✅ Success! File created: ",
+#     'summary': "📊 Summary:",
+#     'file_count': "   - Files processed: {count}",
+#     'size': "   - Output size: {size} characters (~{kb} KB)",
+#     'line_count': "   - Total lines: {lines}",
+#     'write_error': "❌ Error writing file: {error}",
+#     'not_found': "❌ Error: Folder '{path}' not found!",
+# }
